@@ -1,0 +1,112 @@
+﻿*{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #005fa3;
+}
+.icon{
+    background-color: #005fa3;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+ul{
+    list-style-type: none;
+    background-color: #005fa3;
+    margin: 25px;
+    padding-left: 0;
+}
+ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Times New Roman;
+    background-color: #005fa3;
+    box-shadow: inset 0 0 0 #54b3d6;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 6px;
+}
+
+ul li a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+#about_us{
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+#about_us img{
+    width: 400px;
+    height: 250px;
+    margin: 30px 10px;
+    box-shadow: 0px 2px 5px;
+    border-radius: 10%;
+}
+
+#projects{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+}
+
+.proj_pres{
+    flex: 0 0 auto;
+    padding: 10px 1px;
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10%;
+    transition: box-shadow .3s ease-in-out;
+}
+.proj_pres:hover{
+    box-shadow: 10px 10px 10px #54b3d6;
+}
+
+#projects img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+    display: block;
+}
+
+#team{
+    background-color: #ffd1d1;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px;
+}
+
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
