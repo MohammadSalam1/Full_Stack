@@ -1,0 +1,42 @@
+﻿#light_box{
+    height: 500px;
+    width: 250px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#red{
+    margin: 20px;
+    background-color:red;
+    opacity: 0.3;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+#yellow{
+    margin: 20px;
+    background-color:yellow;
+    opacity: 0.3;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+#green{
+    margin: 20px;
+    background-color:green;
+    opacity: 0.3;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+button{
+    background-color: lightgray;
+    align-items: center;
+    margin: 35px;    
+}
+
+
