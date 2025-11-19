@@ -1,2 +1,1 @@
-# Full_Stack
-leraning_full_stack_development
+# My Project
